@@ -39,5 +39,7 @@
         /// </summary>
         public string Wool { get; set; }
 
+        public Guid ClientId { get; set; }
+        public Client Client { get; set; }
     }
 }
